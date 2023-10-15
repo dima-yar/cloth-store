@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2163d897-fef8-4f15-9757-2e9ad581f0f5" name="Changes" comment="" />
+    <list default="true" id="2163d897-fef8-4f15-9757-2e9ad581f0f5" name="Changes" comment="recreate project bo da">
+      <change afterPath="$PROJECT_DIR$/cloth_store/store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloth_store/cloth_store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cloth_store/cloth_store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloth_store/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cloth_store/store/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +68,28 @@
       <option name="project" value="LOCAL" />
       <updated>1697202572288</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="recreate project bo da">
+      <created>1697380975121</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697380975121</updated>
+    </task>
+    <task id="LOCAL-00005" summary="recreate project bo da">
+      <created>1697381002128</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697381002128</updated>
+    </task>
+    <task id="LOCAL-00006" summary="recreate project bo da">
+      <created>1697381095684</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697381095685</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,6 +106,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="delete and rename project" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="recreate project bo da" />
+    <option name="LAST_COMMIT_MESSAGE" value="recreate project bo da" />
   </component>
 </project>

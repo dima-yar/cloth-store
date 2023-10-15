@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2163d897-fef8-4f15-9757-2e9ad581f0f5" name="Changes" comment="1">
+    <list default="true" id="2163d897-fef8-4f15-9757-2e9ad581f0f5" name="Changes" comment="base.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -39,7 +40,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Фони DBD/PycharmProjects/randomizer",
+    "last_opened_file_path": "D:/Фони DBD/PycharmProjects/djangolearning",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
@@ -129,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697386013824</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="base.html">
+      <created>1697386708648</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697386708648</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +156,7 @@
     <MESSAGE value="delete and rename project" />
     <MESSAGE value="recreate project bo da" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="base.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="base.html" />
   </component>
 </project>

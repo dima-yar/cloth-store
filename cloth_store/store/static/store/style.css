@@ -1,8 +1,127 @@
+@font-face {
+    font-family: 'lato';
+    src: local('Lato'),
+         url('../fonts/Lato-Regular.ttf') format("truetype");
+  }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    font-family:lato;
+}
+*::selection{
+    color:#FF7A00;
+}
+:root{
+    --primary_color:#55A2FF;
+    --secondary_color:#3DC47E;
+    --footer_color:#88A7B9;
+    --base_color:#9D9D9D;
+    --notification_color:#FF2E00;
 }
 body{
-    background: rgb(0, 15, 218);
+    background: rgb(190, 190, 190);
+}
+.wrapper{
+    display:flex;
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    
+}
+/*HEADER*/
+header{
+
+}
+.header-main{
+
+}
+.header-main_top{
+
+}
+.header-main_top_item{
+
+}
+.header-main_down{
+
+}
+.header-main_down_item{
+
+}
+.header-main_down_item_categories{
+
+}
+.header-main_down_item_site_settings{
+
+}
+.header-main_down_item_weekly_best{
+
+}
+.header-main_down_item_buttons{
+
+}
+.header-menu{
+
+}
+.header-menu_item_holder{
+
+}
+.header-menu_item_holder_item{
+
+}
+/*MAIN*/
+main{
+
+}
+
+
+/*FOOTER*/
+.footer-subscription{
+
+}
+.footer-subscription_title{
+
+}
+.footer-subscription_decs{
+
+}
+.footer-subscription_form{
+
+}
+.footer-top{
+
+}
+.footer-top_item_holder{
+
+}
+.footer-top_item_holder_topic{
+
+}
+.footer-top_item_holder_link{
+
+}
+.footer-bottom{
+
+}
+.footer-bottom_top{
+
+}
+.footer-bottom_top_payment_processing_method{
+
+}
+.footer-bottom_top_coose_language{
+
+}
+.footer-bottom_bottom{
+
+}
+.footer-bottom_bottom_adress{
+
+}
+.footer-bottom_bottom_copyright{
+
+}
+.footer-bottom_bottom_social_media{
+
 }

@@ -78,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'cloth_store',
-        'USER': 'avens_tach',
-        'PASSWORD': 'paswd123',
+        'USER': 'lighton',
+        'PASSWORD': 'shnider',
         'HOST': 'localhost',
         'PORT': '5432'
     }

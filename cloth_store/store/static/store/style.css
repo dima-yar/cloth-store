@@ -32,7 +32,8 @@ body{
 }
 /*HEADER*/
 header{
-
+    display: flex;
+    flex-direction: column;
 }
 .header-main{
 

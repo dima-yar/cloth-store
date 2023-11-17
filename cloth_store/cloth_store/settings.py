@@ -125,3 +125,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+MEDIA_ROOT = "C:/Users/Користувач.KAB22-3/PycharmProjects/cloth-store/data/"

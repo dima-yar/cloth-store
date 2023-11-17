@@ -19,7 +19,7 @@ class Products(models.Model):
 
 class ProductImages(models.Model):
     id = models.IntegerField(primary_key=True, blank=False)
-    product_image = models.ImageField()
+    product_image = models.ImageField(upload_to="product_image/")
 
 
 class Users(models.Model):

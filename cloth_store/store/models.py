@@ -4,7 +4,7 @@ from django.db import models
 # Create your models here.
 
 class Products(models.Model):
-    id = models.OneToOneField('Images', primary_key=True)
+    id = models.OneToOneField('ProductImages', primary_key=True, on_delete=models.CASCADE)
     gender = models.CharField(max_length=25)
     master_category = models.CharField(max_length=50)
     sub_category = models.CharField(max_length=50)

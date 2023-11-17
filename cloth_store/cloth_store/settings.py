@@ -127,4 +127,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-MEDIA_ROOT = "C:/Users/Користувач.KAB22-3/PycharmProjects/cloth-store/data/"
+MEDIA_ROOT = "C:\\Users\\iryna\\PycharmProjects\\cloth-store\\data\\"

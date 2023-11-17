@@ -14,7 +14,7 @@ class Products(models.Model):
     year = models.DateField()
     usage = models.CharField(max_length=25)
     name = models.CharField(max_length=100)
-    is_availabled = models.BooleanField()
+    is_available = models.BooleanField()
 
 
 class ProductImages(models.Model):
@@ -27,5 +27,5 @@ class Users(models.Model):
     user_password = models.CharField(max_length=60)
     user_email = models.EmailField(max_length=100)
     user_phone = models.CharField(max_length=25)
-    adress = models.CharField(max_length=150)
+    address = models.CharField(max_length=150)
     admin = models.BooleanField(default=False)

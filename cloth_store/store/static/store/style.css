@@ -9,6 +9,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family:lato;
+    letter-spacing: 0px;
 }
 *::selection{
     color:#FF7A00;
@@ -20,109 +21,160 @@
     --base_color:#9D9D9D;
     --notification_color:#FF2E00;
 }
-body{
-    background: rgb(190, 190, 190);
+ul, ol{
+    list-style: none;
 }
-.wrapper{
-    display:flex;
+
+
+/*BASE CSS*/
+.wrapper {
     width: 100vw;
     height: auto;
-    flex-direction: column;
-    
+    min-height: 100vh;
 }
 /*HEADER*/
-header{
+.header { 
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
-.header-main{
-
+.header-top, .header-tabs, .header-mid, .header-top-main{ 
+    display: flex;
+    width: 100%;
 }
-.header-main_top{
-
+.header-top{
+    padding: 28px 90px;
+    gap:80px
 }
-.header-main_top_item{
-
+/*top*/
+.header-top-main{
+    gap:40px;
+    flex:0 0 38.20vw;
+    align-items: center;
 }
-.header-main_down{
+    /*top-main*/
+    .header-top-main-search input{
+        width: 23.95vw;
+        height: 40px;
+    }
+    .header-top-main-logo{
+        display: flex;
+        align-items: center;
+        gap:8px;
+    }
 
+.header-top-links{
+    display: flex;
+    flex:1 1 auto;
+    align-items: center;
 }
-.header-main_down_item{
+    /*top-links*/
+    .header-top-links p{
+        width: 6.6vw;
+    }
 
+.header-top-socialmedia{
+    display: flex;
+    flex:0 0 80px;
+    justify-content: space-between;
+    align-items: center;
 }
-.header-main_down_item_categories{
 
+
+.header-mid{
+    display: flex;
+    background: #000;
+    padding: 8px 90px;
+    justify-content: space-between;
 }
-.header-main_down_item_site_settings{
-
+.header-mid-settings, .header-mid-account, .header-mid-addvertisment{
+    display: flex;
+    align-items: center;
 }
-.header-main_down_item_weekly_best{
-
+.header-mid-settings{
+    gap:12px;
 }
-.header-main_down_item_buttons{
+    /*mid-settings*/
+    .header-mid-settings select{
+        background: transparent;
+        outline: none;
+        border:none;
+        width: 66px;
+    }
+    .header-mid-settings p{
+        display: flex;
+        align-items: center;
+        gap:5px;
+    }
 
+.header-mid-addvertisment{
+    border-left: 1px solid #7B7B7B;
+    border-right: 1px solid #7B7B7B;
+    padding: 0px 75px;
 }
-.header-menu{
+    /*mid-addvertisment*/
+    .header-mid-addvertisment-block{
+        display: flex;
+        gap:10px;
+        align-items: center;
+    }
+    .header-mid-addvertisment-block div{
+        display: flex;
+        flex-direction: column;
+   }
 
+.header-mid-account{
+    gap:20px;
 }
-.header-menu_item_holder{
+    /*mid-account*/
+    .header-mid-account p{
+        display: flex;
+        align-items: center;
+        gap:4px;
+        width: 100px;
+    }
+    .header-mid-account p.card::after{
+        content:"4";
+        width: 24px;
+        height: 24px;
+        border-radius: 100%;
+        background: #3DC47E;
+        text-align: center;
+        color:#FFFFFF;
+        padding-top:2px;
+        box-sizing: border-box;
+    }
 
-}
-.header-menu_item_holder_item{
-
+.header-tabs{
+    height: 80px;
 }
 /*MAIN*/
-main{
-
+.main{
+    width: 100%;
+    display:flex;
+    flex:1 1 100%;
 }
-
-
-/*FOOTER*/
-.footer-subscription{
-
+.main-addvertisment{
+    width: 100%;
+    height: 460px;
+    display: flex;
 }
-.footer-subscription_title{
-
+.main-addvertisment-photo{
+    width: 38vw;
+    height: 100%;
+    background-size: cover;
 }
-.footer-subscription_decs{
-
+.main-addvertisment-offer{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #5b86e4;
+    text-align: center;
 }
-.footer-subscription_form{
-
-}
-.footer-top{
-
-}
-.footer-top_item_holder{
-
-}
-.footer-top_item_holder_topic{
-
-}
-.footer-top_item_holder_link{
-
-}
-.footer-bottom{
-
-}
-.footer-bottom_top{
-
-}
-.footer-bottom_top_payment_processing_method{
-
-}
-.footer-bottom_top_coose_language{
-
-}
-.footer-bottom_bottom{
-
-}
-.footer-bottom_bottom_adress{
-
-}
-.footer-bottom_bottom_copyright{
-
-}
-.footer-bottom_bottom_social_media{
-
+.main-addvertisment-offer div{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
 }

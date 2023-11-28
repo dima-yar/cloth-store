@@ -7,139 +7,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" type="text/css" href="{% static 'store/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'store/text.css' %}">
     <title>Document</title>
 </head>
 <body>
-    <div class="wrapper">
-        <header>
-            <div class="header-main">
-                <div class="header-main_top">
-                    <div class="header-main_top_item"><p>Svinarnik</p></div>
-                    <div class="header-main_top_item"><span><input type="text" placeholder="Search Product"></span></div>
-                    <div class="header-main_top_item">
-                        <div>
-                            <a href="">About us</a>
-                            <a href="">Blog</a>
-                        </div>
-                        <div>
-                            <a href="">Contact us</a>
-                            <a href="">Help & support</a>
-                        </div>
-                    </div>
-                    <div class="header-main_top_item">
-                        <a href="">ISNT</a>
-                        <a href="">FACE</a>
-                        <a href="">TELG</a>
-                    </div>
+<div class="wrapper">
+    <div class="header">
+        <div class="header-top">
+            <div class="header-top-main">
+                <div class="header-top-main-logo bold primary-text fs32">
+                    <img src="{% static 'media/logo.png' %}" alt="logo pic"><span>Svinarnik</span>
                 </div>
-                <div class="header-main_down">
-                    <div class="header-main_down_item">
-                        <div class="header-main_down_item_categories">
-                            Categories
-                        </div>
-                    </div>
-                    <div class="header-main_down_item">
-                        <div class="header-main_down_item_site_settings">
-                            <div>
-                                USD
-                            </div>
-                            <div>
-                                English
-                            </div>
-                        </div>
-                    </div>
-                    <div class="header-main_down_item">
-                        <div class="header-main_down_item_weekly_best">
-                            <div>
-                                <img src="" alt="some image">
-                            </div>
-                            <div>
-                                <p>Weekly Men's Toiletries Coupons.</p>
-                                <p>We extend exclusive discounts to our male clientele</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="header-main_down_item">
-                        <div class="header-main_down_item_buttons">
-                            <div>Sing In</div>
-                            <div>Favorites</div>
-                            <div>Card</div>
-                        </div>
+                <div class="header-top-main-search">
+                    <input type="text" placeholder="SEARCH FIELD(SOON)">
+                </div>
+            </div>
+            <div class="header-top-links regular secondary-text fs14">
+                <p>About Us</p>
+                <p>Blog</p>
+                <p>Contact Us</p>
+                <p>Help&Support</p>
+            </div>
+            <div class="header-top-socialmedia">
+                <a href=""><img src="{% static 'media/icons/instagram.png' %}" alt=""></a>
+                <a href=""><img src="{% static 'media/icons/facebook.png' %}" alt=""></a>
+                <a href=""><img src="{% static 'media/icons/telegram.png' %}" alt=""></a>
+            </div>
+        </div>
+        <div class="header-mid">
+            <div class="header-mid-settings fs20 bold dark-primary primary-text">
+                <p><img src="{% static 'media/icons/categories.png' %}" alt="">Categories</p>
+                <select class="fs12 regular dark-secondary secondary-text" name="currency" id="">
+                    <option value="USD">USD</option>
+                    <option value="UAH">UAH</option>
+                    <option value="EUR">EUR</option>
+                    <option value="PLN">PLN</option>
+                    <option value="GBP">GBP</option>
+                    <option value="JPY">JPY</option>
+                </select>
+                <select class="fs12 regular dark-secondary secondary-text" name="language" id="">
+                    <option value="ENG">English</option>
+                    <option value="UKR">Ukrainian</option>
+                </select>
+            </div>
+            <div class="header-mid-addvertisment">
+                <div class="header-mid-addvertisment-block">
+                    <img src="{% static 'media/example_add_header.png' %}" alt="">
+                    <div>
+                        <p class="fs12 bold dark-primary primary-text">
+                            Weekly Men's Toiletries Coupons
+                        </p>
+                        <p class="fs12 regular dark-secondary secondary-text">
+                            We extend exclusive discounts to our male clientele
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="header-menu">
-                <nav class="header-menu_item_holder">
-                    <a href="" class="header-menu_item_holder_item">Cringe</a>
-                    <a href="" class="header-menu_item_holder_item">Cringe</a>
-                    <a href="" class="header-menu_item_holder_item">Cringe</a>
-                    <a href="" class="header-menu_item_holder_item">Cringe</a>
-                    <a href="" class="header-menu_item_holder_item">Cringe</a>
-                    <a href="" class="header-menu_item_holder_item">Cringe</a>
-                    <a href="" class="header-menu_item_holder_item">Cringe</a>
-                    <a href="" class="header-menu_item_holder_item">Cringe</a>
-                    <a href="" class="header-menu_item_holder_item">Cringe</a>
-                    <a href="" class="header-menu_item_holder_item">Cringe</a>
-                </nav>
+            <div class="header-mid-account fs14 regular">
+                <a href="" class="dark-secondary secondary-text"><p><img src="{% static 'media/icons/Signin.png' %}" alt="">Sign In</p></a>
+                <a href="" class="dark-secondary secondary-text"><p><img src="{% static 'media/icons/Favorides.png' %}" alt="">Favorites</p></a>
+                <a href="" class="dark-secondary secondary-text"><p class="card"><img src="{% static 'media/icons/Card.png' %}" alt="">Card</p></a>
             </div>
-        </header>
-        <main></main>
-        <footer>
-            <div class="footer-subscription">
-                <p class="footer-subscription_title">Svinarnik Store</p>
-                <p class="footer-subscription_decs">Register your email not to miss the last minutes off+ Free delivery</p>
-                <p class="footer-subscription_form"><input type="text" placeholder="Enter your email"></p>
-            </div>
-            <div class="footer-top">
-                <div class="footer-top_item_holder">
-                    <p class="footer-top_item_holder_topic">Viktor Lox</p>
-                    <a href="" class="footer-top_item_holder_link">RocketLeague</a>
-                    <a href="" class="footer-top_item_holder_link">RocketLeague</a>
-                    <a href="" class="footer-top_item_holder_link">RocketLeague</a>
-                    <a href="" class="footer-top_item_holder_link">RocketLeague</a>
-                </div>
-                <div class="footer-top_item_holder">
-                    <p class="footer-top_item_holder_topic">Vlastelin kishko Divok</p>
-                    <a href="" class="footer-top_item_holder_link">RocketLeague</a>
-                    <a href="" class="footer-top_item_holder_link">RocketLeague</a>
-                    <a href="" class="footer-top_item_holder_link">RocketLeague</a>
-                    <a href="" class="footer-top_item_holder_link">RocketLeague</a>
-                </div>
-                <div class="footer-top_item_holder">
-                    <p class="footer-top_item_holder_topic">Harry Spotter</p>
-                    <a href="" class="footer-top_item_holder_link">RocketLeague</a>
-                    <a href="" class="footer-top_item_holder_link">RocketLeague</a>
-                    <a href="" class="footer-top_item_holder_link">RocketLeague</a>
-                    <a href="" class="footer-top_item_holder_link">RocketLeague</a>
-                </div>
-                <div class="footer-top_item_holder">
-                    <p class="footer-top_item_holder_topic">Illya tozhe Lox</p>
-                    <a href="" class="footer-top_item_holder_link">RocketLeague</a>
-                    <a href="" class="footer-top_item_holder_link">RocketLeague</a>
-                    <a href="" class="footer-top_item_holder_link">RocketLeague</a>
-                    <a href="" class="footer-top_item_holder_link">RocketLeague</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="footer-bottom_top">
-                    <div class="footer-bottom_top_payment_processing_method">
-                        <a href="">MASTERCARD</a>
-                        <a href="">PAYPAL</a>
-                        <a href="">VISA</a>
-                    </div>
-                    <div class="footer-bottom_top_coose_language">English</div>
-                </div>
-                <div class="footer-bottom_bottom">
-                    <p class="footer-bottom_bottom_adress">165-179 Forster Road City of Monash, Melbourne, Australia</p>
-                    <p class="footer-bottom_bottom_copyright">©2023 Copyright in reserved for lumine shop</p>
-                    <p class="footer-bottom_bottom_social_media">
-                        <a href="">ISNT</a>
-                        <a href="">FACE</a>
-                        <a href="">TELG</a>
-                    </p>
-                </div>
-            </div>
-        </footer>
+        </div>
+        <div class="header-tabs">
+            {% block header-tabs %}
+
+            {% endblock header-tabs %}
+        </div>
     </div>
+    <div class="main">
+        <div class="main-addvertisment">
+            <div class="main-addvertisment-photo" style="background: url({% static 'media/photoleft.png' %}) no-repeat;"></div>
+            <div class="main-addvertisment-offer">
+                <div>
+                    <p class="fs32 uppercase bold white">
+                        Kimonos, Caftans & Pareos
+                    </p>
+                    <p class="fs28 medium white">
+                        Poolside glam included From $4.99
+                    </p>
+                    <button class="blue_shopnow"><img src="" alt=""><p class="fs14 medium uppercase white ">Shop now</p></button>
+                </div>
+            </div>
+
+        </div>
+    </div>   
+    <div class="footer">
+
+    </div>    
+</div>      
 </body>
 </html>

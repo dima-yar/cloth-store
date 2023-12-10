@@ -1,0 +1,4 @@
+*store/migrations
+cloth_store/settings.py
+db.sqlite3
+.vscode

@@ -6,8 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" type="text/css" href="{% static 'store/style.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'store/text.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'style/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'style/text.css' %}">
+    {% block links%}
+    
+    {% endblock links%}
     <title>Document</title>
 </head>
 <body>
@@ -76,21 +79,8 @@
         </div>
     </div>
     <div class="main">
-        <div class="main-addvertisment">
-            <div class="main-addvertisment-photo" style="background: url({% static 'media/photoleft.png' %}) no-repeat;"></div>
-            <div class="main-addvertisment-offer">
-                <div>
-                    <p class="fs32 uppercase bold white">
-                        Kimonos, Caftans & Pareos
-                    </p>
-                    <p class="fs28 medium white">
-                        Poolside glam included From $4.99
-                    </p>
-                    <button class="blue_shopnow"><img src="" alt=""><p class="fs14 medium uppercase white ">Shop now</p></button>
-                </div>
-            </div>
-
-        </div>
+        {% block content %}
+        {% endblock content %}
     </div>   
     <div class="footer">
 

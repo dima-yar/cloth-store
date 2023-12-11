@@ -1,0 +1,108 @@
+.main-addvertisment {
+  width: 100%;
+  height: 460px;
+  display: flex;
+  margin-bottom: 18px;
+}
+.main-addvertisment .main-addvertisment-photo {
+  width: 35%;
+  height: 100%;
+}
+.main-addvertisment .main-addvertisment-offer {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #5b86e4;
+  text-align: center;
+}
+.main-addvertisment .main-addvertisment-offer div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.main-addvertisment .main-addvertisment-offer div button {
+  width: 243px;
+  height: 56px;
+  border-radius: 4px;
+  background: #4172DC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+.main-addvertisment .main-addvertisment-offer div button img {
+  margin-right: 4px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 0px 4.7vw;
+  width: 100%;
+}
+
+[class*="--top"] {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+[class*="--items"] {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+}
+
+/*fresh sales*/
+.flash_sales_item {
+  height: 380px;
+  width: 300px;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1019607843);
+  border-radius: 8px;
+}
+.flash_sales_item .time_remains {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  flex-direction: column;
+  padding: 16px 0px;
+}
+.flash_sales_item .time_remains p {
+  display: flex;
+  justify-content: center;
+}
+.flash_sales_item .time_remains p span {
+  margin: 0px 10px;
+}
+.flash_sales_item .photo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 16px 0px;
+}
+.flash_sales_item .description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 74.5px;
+  gap: 6px;
+}
+.flash_sales_item .description .price {
+  display: flex;
+  justify-content: space-between;
+}
+.flash_sales_item .description .price .previous_price {
+  color: #FF2E00;
+}
+.flash_sales_item .description .price .discount {
+  border-radius: 2.06px;
+  padding: 0px 6px;
+  background: #FF2E00;
+  color: #fff;
+}/*# sourceMappingURL=landing.css.map */

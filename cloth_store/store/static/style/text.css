@@ -4,15 +4,16 @@
     --primary-dark-text-color:#FFFFFF;
     --secondary-dark-text-color:#C4C4C4;
 }
+*{
+    line-height: 20px;
+}
 /*TEXT COLOR*/
 .primary-text{
     color: var(--primary-light-text-color);
     font-weight: 700;
-    line-height: 20px;
 }
 .secondary-text{
     color: var(--secondary-light-text-color);
-    line-height: 20px;
 }
 .dark-primary{
     color:var(--primary-dark-text-color);
@@ -81,4 +82,17 @@
 /*TEXT CASE*/
 .uppercase{
     text-transform: uppercase;
+}
+/*line-height*/
+.lh25{
+    line-height: 25px;
+}
+.lh28{
+    line-height: 28px;
+}
+.lh36{
+    line-height: 36px;
+}
+.lh46{
+    line-height: 46px;
 }

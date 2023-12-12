@@ -12,6 +12,10 @@
     letter-spacing: 0px;
     border:0;
     outline:0;
+    transition:.3s;
+}
+button{
+    cursor:pointer;
 }
 *::selection{
     color:#FF7A00;
@@ -26,11 +30,20 @@
 ul, ol{
     list-style: none;
 }
-
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background: rgba(212, 226, 134, 0.3);
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(56, 64, 169, 0.229);
+    border-radius: 3px;
+}
 
 /*BASE CSS*/
 .wrapper {
-    width: 100vw;
+    width: 100%;
     height: auto;
     min-height: 100vh;
 }
@@ -159,3 +172,6 @@ ul, ol{
     gap:68px;
 }
 /*FOOTER*/
+.footer{
+    margin-top: 40px;
+}

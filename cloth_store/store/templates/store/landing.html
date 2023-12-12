@@ -1,7 +1,8 @@
 {% extends "store/base.html" %}
 {% load static%}
 {% block links%}
-<link rel="stylesheet" type="text/css" href="{% static "style/landing.css" %}">
+<script src="{% static 'js/slider.js' %}" defer></script>
+<link rel="stylesheet" type="text/css" href="{% static 'style/landing.css' %}">
 {% endblock links%}
 {% block content %}
 <div class="main-addvertisment">
@@ -19,19 +20,19 @@
     </div>
 </div>
 
-
-<div class="flash_sales category">
-    <div class="flash_sales--top">
+<!--PRODUCTS-->>
+<div class="flash-sales category">
+    <div class="flash-sales--top">
         <div class="fs28 medium primary-text">
             Flash Sales
         </div>
 
-        <div class="flash_sales-top fs12 regular primary-text">
+        <div class="flash-sales-top fs12 regular primary-text">
             <a href="">View all ></a>
         </div>
     </div>
-    <div class="flash_sales--items">
-        <div class="flash_sales_item">
+    <div class="flash-sales--items">
+        <div class="flash-sales_item">
             <div class="time_remains">
                 <p class="fs18 extra_bold tritary-text">Deal of the Day</p>
                 <p class="timer fs18 extra_bold primary-text">
@@ -50,82 +51,153 @@
                 <p class="price secondary-text"><span class="previous_price fs14 bold">$160</span> $124 <span class="discount fs8 semi_bold"> - 40%</span></p>
             </div>
         </div>
-        <div class="flash_sales_item">
-            <div class="time_remains">
-                <p class="fs18 extra_bold tritary-text">Deal of the Day</p>
-                <p class="timer fs18 extra_bold primary-text">
+    </div>
+</div>
+<div class="trending-must-haves category">
+    <div class="trending-must-haves--top">
+        <div class="fs28 medium primary-text">
+            Flash Sales
+        </div>
 
-                    <span>05</span>:<span>12</span>:<span>42</span>
-
-                </p>
-            </div>
+        <div class="trending-must-haves-top fs12 regular primary-text">
+            <a href="">View all ></a>
+        </div>
+    </div>
+    <div class="trending-must-haves--items">
+        <div class="trending-must-haves_item">
             <div class="photo">
-                <img src="{% static 'media/photo_bag.png'%}" alt="photo of product">
+                <img src="{% static 'media/bandage.jpg' %}" alt="">
+                <div class="new_arivals">
+                    <button>
+                        <img src="{% static 'media/icons/new_arivals.png' %}" alt="">
+                        <span class="fs10 white regular">New Arivals</span>
+                    </button>
+                </div>
             </div>
-            <div class="description fs12 regular">
-                <p class="item_name fs18 extra_bold">Viktor Kubovich</p>
-                <p class="item_category_name secondary-text">Womans panties</p>
-                <p class="item_rating secondary-text">* * * * (54)</p>
-                <p class="price secondary-text"><span class="previous_price fs14 bold">$160</span> $124 <span class="discount fs8 semi_bold"> - 40%</span></p>
+            <div class="desctiption">
+                <div class="text">
+                    <p class="fs16 bold lh25 primary-text dark-primary">Cool&Sexy Cat Cloth</p>
+                    <p class="fs14 regular secondary-text dark-secondary">Bandit Bandage for cat</p>
+                </div>
+                <div class="shop_now">
+                    <button>
+                        <span class="medium fs14 white">$80</span>
+                        <span class="bold fs14 white">Shop Now</span>
+                    </button>
+                </div>
             </div>
         </div>
-        <div class="flash_sales_item">
-            <div class="time_remains">
-                <p class="fs18 extra_bold tritary-text">Deal of the Day</p>
-                <p class="timer fs18 extra_bold primary-text">
+    </div>
+</div>
 
-                    <span>05</span>:<span>12</span>:<span>42</span>
+<div class="top-100 category">
+    <div class="top-100--top">
+        <div class="fs28 medium primary-text">
+            Top 100
+        </div>
 
-                </p>
-            </div>
+        <div class="top-100-top fs12 regular primary-text">
+            <a href="">View all ></a>
+        </div>
+    </div>
+    <div class="top-100--items">
+        <div class="top-100_item">
             <div class="photo">
-                <img src="{% static 'media/photo_bag.png'%}" alt="photo of product">
+                <img src="{% static 'media/embroided_shirt.jpg' %}" alt="">
             </div>
             <div class="description fs12 regular">
-                <p class="item_name fs18 extra_bold">Viktor Kubovich</p>
-                <p class="item_category_name secondary-text">Womans panties</p>
-                <p class="item_rating secondary-text">* * * * (54)</p>
-                <p class="price secondary-text"><span class="previous_price fs14 bold">$160</span> $124 <span class="discount fs8 semi_bold"> - 40%</span></p>
+                <div class="info">
+                    <p class="item_name bold">Embroided Shirt</p>
+                    <p class="item_category_name fs10 secondary-text">Ukrainian National Cloth - Paket 'Maika'</p>
+                    <p class="item_rating secondary-text">* * * * (54)</p>
+                    <p class="price fs14"><span class="previous_price fs14 extra_bold">$160</span> $124 <span class="fs12 regular"> - 40%</span></p>
+                </div>
+                <div class="like">
+                    <a href=""><img src="{% static 'media/icons/like.png' %}" alt=""></a>
+                </div>
             </div>
         </div>
-        <div class="flash_sales_item">
-            <div class="time_remains">
-                <p class="fs18 extra_bold tritary-text">Deal of the Day</p>
-                <p class="timer fs18 extra_bold primary-text">
+    </div>
+</div>
 
-                    <span>05</span>:<span>12</span>:<span>42</span>
-
-                </p>
+<!--ANOTHER ADVERBS-->
+<div class="category-advertismant">
+    <div class="advertismant-item">
+        <div class="info white" style="background: #51c58b;">
+            <div>
+                <p class="fs36 extra_bold lh46">Phisics Exam</p>
+                <p class="fs28 regular lh36">Throw away your time & get 200</p>
+            </div>
+            <p class="explore_new_category"><a href="" class="white lh36">Explore all category</a></p>
+        </div>
+        <div class="photo" style="background: url({% static 'media/photo_adverb.png' %}) no-repeat; background-size:cover;"></div>
+    </div>
+    <div class="advertismant-item">
+        <div class="info white" style="background: #7251c5;">
+            <div>
+                <p class="fs36 extra_bold lh46">Never-Ending Rocket</p>
+                <p class="fs28 regular lh36">Throw away your time & degrade</p>
+            </div>
+            <p class="explore_new_category"><a href="" class="white lh36">Explore all category</a></p>
+        </div>
+        <div class="photo" style="background: url({% static 'media/photo_adverb.png' %}) no-repeat; background-size:cover;"></div>
+    </div>
+</div>
+<div class="category-advertismant-slider f">
+    <div class="slide_left"> ← </div>
+    <div class="slider">
+        <div class="slider-child-first active">
+            <div class="text">
+                <div class="title fs24 uppercase bold secondary-text">Octane</div>
+                <div class="description lh28 secondary-text fs20 medium">The best car ever, because its cool and free</div>
             </div>
             <div class="photo">
-                <img src="{% static 'media/photo_bag.png'%}" alt="photo of product">
-            </div>
-            <div class="description fs12 regular">
-                <p class="item_name fs18 extra_bold">Viktor Kubovich</p>
-                <p class="item_category_name secondary-text">Womans panties</p>
-                <p class="item_rating secondary-text">* * * * (54)</p>
-                <p class="price secondary-text"><span class="previous_price fs14 bold">$160</span> $124 <span class="discount fs8 semi_bold"> - 40%</span></p>
+                <img src="{% static 'media/octane.png' %}" alt="">
             </div>
         </div>
-        <div class="flash_sales_item">
-            <div class="time_remains">
-                <p class="fs18 extra_bold tritary-text">Deal of the Day</p>
-                <p class="timer fs18 extra_bold primary-text">
 
-                    <span>05</span>:<span>12</span>:<span>42</span>
-
-                </p>
+        <div class="slider-child-second">
+            <div class="text">
+                <div class="title fs24 uppercase bold secondary-text">Arthur</div>
+                <div class="description lh28 secondary-text fs20 medium">The best friend ever, because its cool and free</div>
             </div>
             <div class="photo">
-                <img src="{% static 'media/photo_bag.png'%}" alt="photo of product">
-            </div>
-            <div class="description fs12 regular">
-                <p class="item_name fs18 extra_bold">Viktor Kubovich</p>
-                <p class="item_category_name secondary-text">Womans panties</p>
-                <p class="item_rating secondary-text">* * * * (54)</p>
-                <p class="price secondary-text"><span class="previous_price fs14 bold">$160</span> $124 <span class="discount fs8 semi_bold"> - 40%</span></p>
+                <img src="{% static 'media/octane.png' %}" alt="">
             </div>
         </div>
+
+        <div class="slider-child-third">
+            <div class="text">
+                <div class="title fs24 uppercase bold secondary-text">Victor</div>
+                <div class="description lh28 secondary-text fs20 medium">The best friend ever, because its cool and free</div>
+            </div>
+            <div class="photo">
+                <img src="{% static 'media/octane.png' %}" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="slide_right"> → </div>
+</div>
+<div class="category-advertismant">
+    <div class="advertismant-item">
+        <div class="info white" style="background: #c1c551;">
+            <div>
+                <p class="fs36 extra_bold lh46">Learn Django</p>
+                <p class="fs28 regular lh36">Maybe it can help you</p>
+            </div>
+            <p class="explore_new_category"><a href="" class="white lh36">Explore all category</a></p>
+        </div>
+        <div class="photo" style="background: url({% static 'media/photo_adverb.png' %}) no-repeat; background-size:cover;"></div>
+    </div>
+    <div class="advertismant-item">
+        <div class="info white" style="background: #c5515b;">
+            <div>
+                <p class="fs36 extra_bold lh46">Be Homesexual</p>
+                <p class="fs28 regular lh36">You will always find your second part</p>
+            </div>
+            <p class="explore_new_category"><a href="" class="white lh36">Explore all category</a></p>
+        </div>
+        <div class="photo" style="background: url({% static 'media/photo_adverb.png' %}) no-repeat; background-size:cover;"></div>
     </div>
 </div>
 {% endblock content %}

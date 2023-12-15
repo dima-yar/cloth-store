@@ -43,6 +43,10 @@
   justify-content: center;
   align-self: center;
 }
+.main-addvertisment .main-addvertisment-offer div button:hover {
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.0745098039);
+  transform: scale(1.03);
+}
 .main-addvertisment .main-addvertisment-offer div button img {
   margin-right: 4px;
 }
@@ -75,6 +79,10 @@
   width: 300px;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1019607843);
   border-radius: 8px;
+}
+.flash-sales_item:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1647058824);
+  transform: scale(1.01);
 }
 .flash-sales_item .time_remains {
   width: 100%;
@@ -126,6 +134,10 @@
   flex-direction: column;
   border-radius: 8px;
   overflow: hidden;
+}
+.trending-must-haves_item:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1647058824);
+  transform: scale(1.01);
 }
 .trending-must-haves_item .photo {
   height: 78%;
@@ -185,6 +197,9 @@
   align-items: center;
   gap: 8px;
 }
+.trending-must-haves_item .desctiption .shop_now button:hover {
+  box-shadow: 0px 0px 12px 0px rgba(255, 255, 255, 0.1647058824);
+}
 
 /*TOP 100*/
 .top-100_item {
@@ -195,6 +210,10 @@
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1019607843);
+}
+.top-100_item:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1647058824);
+  transform: scale(1.01);
 }
 .top-100_item .photo {
   height: 78%;

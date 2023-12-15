@@ -23,7 +23,20 @@
                     <img src="{% static 'media/logo.png' %}" alt="logo pic"><span>Svinarnik</span>
                 </div>
                 <div class="header-top-main-search">
-                    <input type="text" placeholder="SEARCH FIELD(SOON)">
+                    <span>
+                        <input type="text" placeholder="SEARCH FIELD(SOON)"> 
+                        <div>
+                            <div>
+                                <select name="categories" id="">
+                                    <option value="">Category 1</option>
+                                    <option value="">category 2</option>
+                                </select>
+                            </div>
+                            <div>
+                                <img src="{% static 'media/icons/search.png' %}" alt="">
+                            </div>
+                        </div>
+                    </span>
                 </div>
             </div>
             <div class="header-top-links regular secondary-text fs14">
@@ -84,7 +97,70 @@
         {% endblock content %}
     </div>   
     <div class="footer">
- <h1>h1 ТУТ БУДЕ ФУУУУУУУТЕР</h1>
+        <div class="footer-top fs14 regular secondary-text">
+
+            <div class="footer-register">
+                <p class="fs32 bold white">Svinarnik <span>Store</span></p>
+                <p class="fs16 regular white">Register and be part of our svin family!</p>
+                <span><input type="text" placeholder="Enter your email"> <a href=""><img src="{% static 'media/icons/send.png' %}" alt=""></a></span>
+            </div>
+            <div class="footer-top-links">
+                <ul>
+                    <li class="title bold primary-text">Some Title</li>
+                    <li><a href="">Some url</a></li>
+                    <li><a href="">Some url</a></li>
+                    <li><a href="">Some url</a></li>
+                </ul>
+    
+                <ul>
+                    <li class="title bold primary-text">Some Title</li>
+                    <li><a href="">Some url</a></li>
+                    <li><a href="">Some url</a></li>
+                    <li><a href="">Some url</a></li>
+                </ul>
+    
+                <ul>
+                    <li class="title bold primary-text">Some Title</li>
+                    <li><a href="">Some url</a></li>
+                    <li><a href="">Some url</a></li>
+                    <li><a href="">Some url</a></li>
+                </ul>
+    
+                <ul>
+                    <li class="title bold primary-text">Some Title</li>
+                    <li><a href="">Some url</a></li>
+                    <li><a href="">Some url</a></li>
+                    <li><a href="">Some url</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footer-bottom">
+
+            
+            <div class="footer-bottom-top">
+                <div class="footer-bottom-top_payment">
+                    <a href=""><img src="{% static 'media/mastercard.png' %}" alt=""></a>
+                    <a href=""><img src="{% static 'media/visa.png' %}" alt=""></a>
+                    <a href=""><img src="{% static 'media/paypal.png' %}" alt=""></a> 
+                </div>
+                <div class="footer-bottom-top_language">
+                    <select class="fs14 regular secondary-text" name="language" id="">
+                        <option value="ENG">English</option>
+                        <option value="UKR">Ukrainian</option>
+                    </select>
+                </div>
+            </div>
+            <div class="footer-bottom-bottom">
+                <p class="footer-bottom-bottom_adress fs14 regular primary-text">30 Kravchuka, Lutsk, Volyn, Ukraine</p>
+                <p class="footer-bottom-bottom_copyright fs14 regular tritary-text">©2023 Copyright in reserved for svinarnik shop</p>
+                <p class="footer-bottom-bottom_socialmedia">
+                    <a href=""><img src="{% static 'media/icons/instagram.png' %}" alt=""></a>
+                    <a href=""><img src="{% static 'media/icons/facebook.png' %}" alt=""></a>
+                    <a href=""><img src="{% static 'media/icons/telegram.png' %}" alt=""></a>    
+                </p>
+            </div>
+        </div>
     </div>    
 </div>      
 </body>

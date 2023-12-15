@@ -43,7 +43,10 @@
                 align-items: center;
                 justify-content: center;
                 align-self: center;
-    
+                &:hover{
+                    box-shadow: 0px 0px 10px 0px #ffffff13;
+                    transform: scale(1.03);
+                }
                 img{
                     margin-right: 4px;
                 }
@@ -76,7 +79,10 @@
     width: 300px;
     box-shadow: 0px 0px 12px 0px #0000001A;
     border-radius: 8px;
-
+    &:hover{
+        box-shadow: 0px 0px 20px 0px #0000002A;
+        transform: scale(1.01);
+    }
     .time_remains{
         width: 100%;
         display: flex;
@@ -129,7 +135,10 @@
     flex-direction: column;
     border-radius: 8px;
     overflow: hidden;
-
+    &:hover{
+        box-shadow: 0px 0px 20px 0px #0000002A;
+        transform: scale(1.01);
+    }
     .photo{
         height: 78%;
         width: 100%;
@@ -185,6 +194,9 @@
                 justify-content: center;
                 align-items: center;
                 gap:8px;
+                &:hover{
+                    box-shadow: 0px 0px 12px 0px #ffffff2a;
+                }
             }
         }
 
@@ -200,7 +212,10 @@
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 0px 12px 0px #0000001A;
-
+    &:hover{
+        box-shadow: 0px 0px 20px 0px #0000002A;
+        transform: scale(1.01);
+    }
     .photo{
         height: 78%;
         width: 100%;

@@ -7,6 +7,9 @@
 *{
     line-height: 20px;
 }
+a{
+    color:inherit;
+}
 /*TEXT COLOR*/
 .primary-text{
     color: var(--primary-light-text-color);
